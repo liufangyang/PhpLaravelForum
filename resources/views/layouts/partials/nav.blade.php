@@ -13,7 +13,7 @@
           <div id ="navbar",class = "nav-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="../navbar-static-top/">Log in</a></li>
-              <li><a href="../navbar-fixed-top/">Register</a></li>
+              <li><a href="{{route('get_register')}}">Register</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->

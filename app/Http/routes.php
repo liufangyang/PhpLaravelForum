@@ -15,3 +15,18 @@ Route::get('/', [
     'as'=>'home',
     'uses'=>'PageController@home']
 );
+
+Route::group(['prefix'=>'auth'],function(){
+    
+Route::get('register',[
+    'as'=>'get_register',
+    'uses'=>'Auth\AuthController@getRegister'
+    ]);
+    
+        
+Route::post('register',[
+    'as'=>'post_register',
+    'uses'=>'Auth\AuthController@postRegister'
+    ]);
+    
+});
