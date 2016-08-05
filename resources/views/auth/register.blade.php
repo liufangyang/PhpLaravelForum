@@ -1,10 +1,9 @@
+
 @extends('layouts.masters.main')
 
-@section('page-content')
-
 <div class="container">
-    
-    @include('layouts.partials.nav')
+  
+@include('layouts.partials.nav')
 
       <form class="form-signin">
         <h2 class="form-signin-heading">Please sign in</h2>
@@ -21,3 +20,4 @@
       </form>
 
     </div> <!-- /container -->
+ 
